@@ -12,7 +12,7 @@ steps:
 
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'europe-west1-docker.pkg.dev/devops-project3/gke-repo/flask-image', './app2' ]
-  id: 'Build Docker Image2'
+  id: 'Build Docker Image2 -'
 
   # images:
   # - 'europe-west1-docker.pkg.dev/devops-project3/gke-repo/quickstart-image'
