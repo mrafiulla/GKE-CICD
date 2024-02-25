@@ -4,7 +4,7 @@ steps:
   id: 'Build Docker Image'
 
   # images:
-  # - 'europe-west1-docker.pkg.dev/DevOps-Project3/gke-repo/quickstart-image'
+  # - 'europe-west1-docker.pkg.dev/devops-Project3/gke-repo/quickstart-image'
 
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'europe-west1-docker.pkg.dev/devops-project3/gke-repo/quickstart-image' ]
@@ -15,7 +15,7 @@ steps:
   id: 'Build Docker Image2'
 
   # images:
-  # - 'europe-west1-docker.pkg.dev/DevOps-Project3/gke-repo/quickstart-image'
+  # - 'europe-west1-docker.pkg.dev/devops-project3/gke-repo/quickstart-image'
 
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'europe-west1-docker.pkg.dev/devops-project3/gke-repo/flask-image' ]
